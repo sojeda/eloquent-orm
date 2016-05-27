@@ -18,6 +18,9 @@
             <a href="{{ route('get-custom') }}" title="">
                 Utilizando Get Custom - con Array
             </a>
+            <a href="{{ route('list') }}" title="">
+                Lista de Usuarios para Select (LIST)
+            </a>
         </li>
     </ul>
 </li>
