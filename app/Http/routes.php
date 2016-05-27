@@ -40,3 +40,8 @@ Route::get('/list', [
     'as'   => 'list',
     'uses' => 'QueryController@eloquentList',
 ]);
+
+Route::get('/first-last', [
+    'as'   => 'first-last',
+    'uses' => 'QueryController@eloquentFirstLast',
+]);

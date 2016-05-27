@@ -19,7 +19,10 @@
                 Utilizando Get Custom - con Array
             </a>
             <a href="{{ route('list') }}" title="">
-                Lista de Usuarios para Select (LIST)
+                Lista de Usuarios para Select (LIST) 
+            </a>
+            <a href="{{ route('first-last') }}" title="">
+                Primero y Ultimo Usuario (FIRST AND LAST)
             </a>
         </li>
     </ul>
