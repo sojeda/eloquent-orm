@@ -9,19 +9,24 @@
 | It's a breeze. Simply tell Laravel the URIs it should respond to
 | and give it the controller to call when that URI is requested.
 |
-*/
+ */
 
 Route::get('/', [
-    'as' => 'home',
-    'uses' => 'PagesController@home'
+    'as'   => 'home',
+    'uses' => 'PagesController@home',
 ]);
 
 Route::get('/all', [
-    'as' => 'all',
-    'uses' => 'QueryController@eloquentAll'
+    'as'   => 'all',
+    'uses' => 'QueryController@eloquentAll',
 ]);
 
 Route::get('/get/{gender}', [
-    'as' => 'get',
-    'uses' => 'QueryController@eloquentGet'
+    'as'   => 'get',
+    'uses' => 'QueryController@eloquentGet',
+]);
+
+Route::get('/get-custom', [
+    'as'   => 'get-custom',
+    'uses' => 'QueryController@eloquentGetCustom',
 ]);
