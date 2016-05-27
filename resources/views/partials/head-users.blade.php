@@ -1,0 +1,22 @@
+<thead>
+    <tr>
+        <th>
+            ID
+        </th>
+        <th>
+            Nombre
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+            Genero
+        </th>
+        <th>
+            Biografía
+        </th>
+        <th>
+            Eliminar
+        </th>
+    </tr>
+</thead>
