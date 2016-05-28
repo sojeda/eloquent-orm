@@ -24,6 +24,9 @@
             <a href="{{ route('first-last') }}" title="">
                 Primero y Ultimo Usuario (FIRST AND LAST)
             </a>
+            <a href="{{ route('paginate') }}" title="">
+                Paginacion
+            </a>
         </li>
     </ul>
 </li>
